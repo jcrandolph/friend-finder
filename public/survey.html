@@ -201,7 +201,7 @@
         
 
         $.post("/api/friends", newFriend, function(data) {
-            console.log(newFriend);
+            console.log(JSON.stringify(newFriend))
         })            
         })
 
